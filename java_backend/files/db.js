@@ -11,7 +11,7 @@ const connect1=process.env.connect1;
 const connect2=process.env.conect2;
 const uri=`${connect1}${enc}${connect2}`
 
-const p=`mongodb+srv://java_refresh:${enc}@cluster0.t0mdssq.mongodb.net/?appName=Cluster0`
+const p=String(`mongodb+srv://java_refresh:${enc}@cluster0.t0mdssq.mongodb.net/?appName=Cluster0`)
 try{
 await mongoose.connect(p)
 console.log("success")

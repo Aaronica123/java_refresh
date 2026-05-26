@@ -1,0 +1,1 @@
+26-bookworm-slim, 26.2-bookworm-slim, 26.2.0-bookworm-slim, bookworm-slim, current-bookworm-slim
