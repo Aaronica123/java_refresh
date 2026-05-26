@@ -7,11 +7,8 @@ const app =express();
 app.use(express.json());
 
 
-// import url from "./url";
-// url();
-
 app.post('/create',create);
 app.delete('/delete',delete_1);
-app.get('/fetch',fetch)
+app.get('/fetch',fetch);
 
 export default app;

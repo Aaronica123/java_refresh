@@ -14,7 +14,7 @@ function Delete(){
     const del=async(e)=>{
         e.preventDefault();
         try{
-            const resp=await fetch('',{
+            const resp=await fetch('/api/delete',{
             method:"DELETE",
             headers:{
                 "Content-Type":"application/json"

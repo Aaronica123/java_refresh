@@ -10,7 +10,7 @@ const [form,setForm]=useState({
 
 const fetch_1=async(e)=>{
     e.preventDefault();
-    const resp= await fetch('',{
+    const resp= await fetch('/api/create',{
         method:"POST",
         headers:{
             'Content-type':'application/json'
@@ -47,7 +47,7 @@ const handle=(e)=>{
 return(
     <>
     <div>
-        <form action={fetch_1} >
+        <form onSubmit={fetch_1} >
             <div className="label">
                 <label>
                 User ID
