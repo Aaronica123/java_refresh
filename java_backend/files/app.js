@@ -7,8 +7,8 @@ const app =express();
 app.use(express.json());
 
 
-app.post('/create',create);
-app.delete('/delete',delete_1);
-app.get('/fetch',fetch);
+app.post('/api/create',create);
+app.delete('/api/delete',delete_1);
+app.get('/api/fetch',fetch);
 
 export default app;

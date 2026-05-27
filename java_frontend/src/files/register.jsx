@@ -13,7 +13,7 @@ const fetch_1=async(e)=>{
     const resp= await fetch('/api/create',{
         method:"POST",
         headers:{
-            'Content-type':'application/json'
+            'Content-Type':'application/json'
         },
         body:JSON.stringify({
             "user_id":form.user_id,

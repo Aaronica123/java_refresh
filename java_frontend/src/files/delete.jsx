@@ -53,7 +53,7 @@ return (
             <input type="number" name="user_id" value={form.user_id} onChange={handle}/>
             </div>
             <div className="btn">
-            <button type="submit">
+            <button type="submit" onClick={del}>
                 Delete
             </button>
             </div>
